@@ -90,9 +90,6 @@ const loginUser = () => {
             <p class="text-caption mb-2">
               Admin Email: <strong>admin@demo.com</strong> / Pass: <strong>admin123</strong>
             </p>
-            <p class="text-caption mb-0">
-              Client Email: <strong>client@demo.com</strong> / Pass: <strong>client</strong>
-            </p>
           </VAlert>
         </VCardText>
         <VCardText>

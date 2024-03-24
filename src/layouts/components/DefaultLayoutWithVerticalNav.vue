@@ -3,7 +3,6 @@ import navItems from '@/navigation/vertical'
 import { useThemeConfig } from '@core/composable/useThemeConfig'
 
 // Components
-import Footer from '@/layouts/components/Footer.vue'
 import UserProfile from '@/layouts/components/UserProfile.vue'
 
 // @layouts plugin
@@ -40,10 +39,6 @@ const { appRouteTransition } = useThemeConfig()
       </Transition>
     </RouterView>
 
-    <!-- 👉 Footer -->
-    <template #footer>
-      <Footer />
-    </template>
 
     <!-- 👉 Customizer -->
     <!-- <TheCustomizer /> -->
